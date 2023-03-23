@@ -123,7 +123,7 @@ img {
     padding-bottom: 188px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../images/people-office.jpg) ;
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
     background-size: auto auto;
     max-width: 1440px;
     margin: 0 auto;
@@ -184,6 +184,24 @@ img {
     
      flex-basis: calc((100% - 3* 24px) / 4);
 } 
+
+.items-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4FD;
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+}
+.aside-icon{
+    
+    width: 64px;
+    height: 64px;
+    
+   
+}
+
 
 .aside-content {
     font-family: 'Roboto';
@@ -293,12 +311,34 @@ img {
     flex-direction: column;
     align-items: center
 }
+/*-------siction4--------- */
+.icon-sectoin{
+padding: ;
+}
+.icon-text{
+   padding-top: 120px;
+   margin-bottom: 72px;
+
+
+}
 /*-----------FOOTHER----------------*/
 .footer {
     background-color: #2e2f42;
     padding-top: 100px;
-    padding-bottom: 100px;
-    
+    padding-bottom: 100px; 
+    display: flex; 
+   
+
+}
+.footer-conteiner{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
    
 }
 .footer-studio {
@@ -317,16 +357,57 @@ img {
 .footer-link {
     margin-bottom: 16px;
 }
+
 .tst{
-   
     display: flex;
     flex-direction: column;
     padding: 0px;
     align-items: flex-start;
+    width: 264px;
+    margin: 0;
+    margin-right: 120px;
+}
+
+div > a + p {
+  max-width:264px;
+}
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.social-media{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-soc{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
     
 }
-div > a + p {
-max-width:264px;
+.footer-soc-items {
+    width: 40px;
+    height: 40px;
+}
+.footer-soc-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color:rgba(255, 255, 255, 0.1);
+    /* opacity: 0.1; */
+    
 }
 
 /*----------------Portfolio.html-----------------*/
