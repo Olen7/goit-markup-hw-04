@@ -4,7 +4,8 @@ body {
     color: #434455;
     font-style: normal;
     background-color:#FFFFFF;
-    margin: 0;}
+    margin: 0;
+}
  
   
 .list {
@@ -120,11 +121,18 @@ img {
     background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../images/people-office.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto auto;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .hero-container{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }    
 
 .caption {
@@ -250,8 +258,34 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 
 }
+.team-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-left:16px;
+    padding-right: 16px;
+
+}
+.soc-item{
+    width: 40px;
+    height: 40px;
+}
+.soc-item-link{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.soc-item-icon{
+
+}
+
 .text-profil{
     padding-top: 32px;
     padding-bottom: 32px;
@@ -303,7 +337,6 @@ max-width:264px;
     justify-content: center;
     align-items: center;
     gap: 24px;
-    padding: 12px 0;
     margin-top: 96px;
     margin-bottom: 72px;
     
